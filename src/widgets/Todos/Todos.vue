@@ -64,10 +64,15 @@ export default defineComponent({
   left: 50%;
   transform: translate(-50%, -50%);
   border: 2px solid teal;
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   color: black;
   background-color: ivory;
   z-index: 2;
+}
+@media (max-width: 600px), screen {
+  .todo__modal {
+    font-size: 0.7em;
+  }
 }
 </style>

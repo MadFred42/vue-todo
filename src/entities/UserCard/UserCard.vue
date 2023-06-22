@@ -77,7 +77,7 @@ export default defineComponent({
   margin: 15px;
   padding: 10px;
   height: 8rem;
-  width: 30vw;
+  width: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

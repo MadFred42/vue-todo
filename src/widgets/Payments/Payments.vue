@@ -25,4 +25,10 @@ export default defineComponent({
   align-items: flex-start;
   justify-content: space-between;
 }
+
+@media (max-width: 600px), screen {
+  .payment__list {
+    font-size: 0.75em;
+  }
+}
 </style>

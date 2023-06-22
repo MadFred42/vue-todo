@@ -72,7 +72,7 @@ export default defineComponent({
   data() {
     return {
       buttonProps: {
-        width: '20%',
+        width: '25%',
         height: '2em',
         background: '0, 128, 128',
       },
@@ -131,8 +131,8 @@ export default defineComponent({
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -154,5 +154,18 @@ export default defineComponent({
   border-radius: 0.5em;
   padding: 0 1em;
   width: 60%;
+}
+
+@media (max-width: 600px), screen {
+  .user__settings-change {
+    width: 100%;
+    font-size: 0.75em;
+  }
+  .user__settings-input {
+    height: 4em;
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 360px), screen {
 }
 </style>

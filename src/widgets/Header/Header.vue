@@ -18,7 +18,7 @@ export default defineComponent({
   data() {
     return {
       buttonProps: {
-        width: '15%',
+        width: '30%',
         margin: '0 2em',
         color: 'white',
         height: '70%',
